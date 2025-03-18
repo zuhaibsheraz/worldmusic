@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music-World</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../Source of Code/style.css">
+    <style>
+        .error {
+            color: red;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="header">
+        <a href="#">
+            <img src="../Images/musicworld.png" class="logo" alt="There is Logo">
+        </a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="songcategary.html">SONG CATEGORY</a></li>
+                <li><a href="artist_galley.html">ARTIST GALLEY</a></li>
+                <li><a  href="album.html">ALBUM</a></li>
+                <li><a class="active" href="contact.html">CONTACT</a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <h2>#Let's_talk</h2>
+        <p>Leave a massage.We love to hear from you!</p>
+    </section>
+
+    <section id="contact-details" class="section-p1">
+        <div class="details">
+            <span>GET IN TOUCH</span>
+            <h2>Visit one of our agency locations or contact us today</h2>
+            <h3>Head Office</h3>
+            <div>
+                <li>
+                    <i class="fa-regular fa-map"></i>
+                    <p>56 Glassford Street Glasgow G1 1UL New York</p>
+                </li>
+
+                <li>
+                    <i class="fa-regular fa-envelope"></i>
+                    <p>musicworld@gmail.com</p>
+                </li>
+
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    <p> (+92) 23456789</p>
+                </li>
+
+                <li>
+                    <i class="fa-regular fa-clock"></i>
+                    <p> 10:00 - 18:00, Mon - Sat</p>
+                </li>
+            </div>
+        </div>
+
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d28943.801897945188!2d67.01924853378627!3d24.93291348442066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sAptech%20Learning%20North%20Nazimabad%20Center!5e0!3m2!1sen!2s!4v1739835161246!5m2!1sen!2s"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section id="form-details">
+        <form id="contactForm" action="">
+            <span>LEAVE A MESSAGE</span>
+            <h2>We love to hear from you</h2>
+            <input type="text" id="name" placeholder="Your Name">
+            <span class="error" id="nameError"></span>
+
+            <input type="email" id="email" placeholder="Email">
+            <span class="error" id="emailError"></span>
+
+            <input type="text" id="subject" placeholder="Subject">
+            <span class="error" id="subjectError"></span>
+
+            <textarea id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <span class="error" id="messageError"></span>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div class="people">
+            <div>
+                <img src="../Images/people/1.png" alt="">
+                <p><span>John Doe</span>Senior Marketing Manager <br> Phone: + 000 123 000 77 88 <br>Email :
+                    johndeo@gmail.com</p>
+            </div>
+
+            <div>
+                <img src="../Images/people/2.png" alt="">
+                <p><span>William Smiths</span>Senior Marketing Manager <br> Phone: + 000 123 000 77 88 <br>Email :
+                    johndeo@gmail.com</p>
+            </div>
+
+            <div>
+                <img src="../Images/people/3.png" alt="">
+                <p><span>Emma Stone</span>Senior Marketing Manager <br> Phone: + 000 123 000 77 88 <br>Email:
+                    johndeo@gmail.com</p>
+            </div>
+        </div>
+    </section>
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sing Up For Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers</span></p>
+        </div>
+
+        <form class="form" action="">
+            <input type="email" id="email" placeholder="Your email address">
+            <button type="submit" id="signUpBtn">Sign Up</button>
+            <span class="error2" id="emailError"></span>
+        </form>
+    </section>
+  
+    <footer class="section-p1">
+        <div id="col">
+            <!-- <a href="#">
+                <img width="80px" height="50px" src="../Images/musicworld.png" class="logo" alt="There is Logo"> -->
+            </a>
+            <h4>contact</h4>
+            <p><strong>Address: </strong>Orangi Town Karachi</p>
+            <p><strong>Phone: </strong>(+92) 3249220116</p>
+            <p><strong>Hours: </strong>10:00 - 18:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart </a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="../Images/pay/app.jpg" alt="">
+                <img src="../Images/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Geteways</p>
+            <img src="../Images/pay/pay.png" alt="">
+        </div>
+
+
+    </footer>
+    <hr>
+    <div id="end">
+        <center class="section-p1 End"><a href="https://aptech-education.com.pk/">www.Aptech.com.pk</a></center>
+    </div>
+</body>
+
+</html>
+<script src="../Source of Code/script.js"></script>
+<script>
+    document.getElementById("contactForm").addEventListener("submit", function (event) {
+        let isValid = true;
+
+        // Clear previous error messages
+        document.querySelectorAll(".error").forEach(el => el.textContent = "");
+
+        // Validate Name
+        const name = document.getElementById("name").value.trim();
+        if (name === "") {
+            document.getElementById("nameError").textContent = "Name is required.";
+            isValid = false;
+        }
+
+        // Validate Email
+        const email = document.getElementById("email").value.trim();
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (email === "") {
+            document.getElementById("emailError").textContent = "Email is required.";
+            isValid = false;
+        } else if (!emailPattern.test(email)) {
+            document.getElementById("emailError").textContent = "Enter a valid email address.";
+            isValid = false;
+        }  
+
+        // Validate Subject
+        const subject = document.getElementById("subject").value.trim();
+        if (subject === "") {
+            document.getElementById("subjectError").textContent = "Subject is required.";
+            isValid = false;
+        }
+
+        // Validate Message
+        const message = document.getElementById("message").value.trim();
+        if (message === "") {
+            document.getElementById("messageError").textContent = "Message cannot be empty.";
+            isValid = false;
+        }
+
+        // If any field is invalid, prevent form submission
+        if (!isValid) {
+            event.preventDefault();
+        }
+        else {
+        alert("Successful 👍");
+        window.location.href ='#';
+    }
+    });
+</script>
